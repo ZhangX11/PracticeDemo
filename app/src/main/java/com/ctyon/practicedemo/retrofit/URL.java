@@ -9,5 +9,5 @@ public class URL {
     //第一页URL,和URL_BASE组成完整URL
     public static final String PAGE1 = "article/list/latest?page=1";
     //分页查询URL
-    public static final String QUERY = "article/list/latest";
+    public static final String QUERY_BY_PAGE = "article/list/latest";
 }

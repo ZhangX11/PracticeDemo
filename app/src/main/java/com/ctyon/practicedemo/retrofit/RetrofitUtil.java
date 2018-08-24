@@ -13,6 +13,6 @@ public interface RetrofitUtil {
     @GET(URL.PAGE1)
     Call<QuiShiEntity> getData();
     //分页获取数据
-    @GET(URL.QUERY)
-    Call<QuiShiEntity> queryData(@Query("page") int page);
+    @GET(URL.QUERY_BY_PAGE)
+    Call<QuiShiEntity> queryDataByPage(@Query("page") int page);
 }
