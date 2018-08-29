@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ctyon.practicedemo">
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
@@ -23,6 +24,7 @@
         <activity android:name=".recyclerview.swiperefresh.SwipeRefreshRVActivity" />
         <activity android:name=".recyclerview.smartRefreshLayout.SmartRefreshList" />
         <activity android:name=".recyclerview.smartRefreshLayout.SmartRefreshActivity" />
+        <activity android:name=".retrofit.RxJava.RetrofitRxJavaActivity" />
     </application>
 
 </manifest>

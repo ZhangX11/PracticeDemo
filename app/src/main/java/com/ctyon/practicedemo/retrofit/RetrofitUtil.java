@@ -1,5 +1,7 @@
 package com.ctyon.practicedemo.retrofit;
 
+
+import io.reactivex.Observable;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
@@ -15,4 +17,7 @@ public interface RetrofitUtil {
     //分页获取数据
     @GET(URL.QUERY_BY_PAGE)
     Call<QuiShiEntity> queryDataByPage(@Query("page") int page);
+    //与RxJava一起使用
+    @GET(URL.PAGE1)
+    Observable<QuiShiEntity> getDataRx();
 }

@@ -12,6 +12,7 @@ import android.widget.Toast;
 import com.ctyon.practicedemo.recyclerview.smartRefreshLayout.SmartRefreshList;
 import com.ctyon.practicedemo.recyclerview.swiperefresh.SwipeRefreshRVActivity;
 import com.ctyon.practicedemo.retrofit.MyRetrofitActivity;
+import com.ctyon.practicedemo.retrofit.RxJava.RetrofitRxJavaActivity;
 
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
@@ -27,12 +28,14 @@ public class MainActivity extends ListActivity{
 
     private String[] mTitles = new String[]{
             "Retrofit的使用",
+            "Retrofit+RxJava的使用",
             "RecyclerView+SwipeRefreshLayout下拉刷新上拉加载",
             "SmartRefreshLayout列表"
     };
 
     private Class[] mActivities = new Class[]{
             MyRetrofitActivity.class,
+            RetrofitRxJavaActivity.class,
             SwipeRefreshRVActivity.class,
             SmartRefreshList.class
 
