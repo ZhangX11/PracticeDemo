@@ -30,6 +30,7 @@ public class MainActivity extends ListActivity{
             "Retrofit的使用",
             "Retrofit+RxJava的使用",
             "RecyclerView+SwipeRefreshLayout下拉刷新上拉加载",
+            "RecyclerView+GridLayoutManager分组多布局",
             "SmartRefreshLayout列表"
     };
 
